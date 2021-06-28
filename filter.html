@@ -43,7 +43,20 @@
         console.log( result2 );
 
         // 함수로 변경 
+        console.log("한글은아름다운글입니다.".indexOf("아름"));
+        var email = "ogh010@naver.com";
+        console.log(email.indexOf('@'));
         
+        var newArry = [];
+        function userSearch(){
+            for(var i=0; i<snacks.length; i++){
+                if(snacks[i].indexOf("깡")>-1){
+                    newArry.push(snacks[i]);
+                }
+            }
+        }
+        userSearch();
+        console.log(newArry);
     </script>
 </body>
 </html>
