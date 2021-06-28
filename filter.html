@@ -9,17 +9,7 @@
 <body>
     <script>
         var numbers = [ 4, 34, 6, -43, 23, 76, 12, -75, 32, 88];
-        var newNumber1 = []
-        function userFilter(){
-            for( var i = 0, n=0 ; i<numbers.length ; i++){
-                if( numbers[i] >=30 ){ 
-                    newNumber1[n] = numbers[i];
-                    n++;
-                }
-            }
-        }
-        userFilter();
-        console.log( newNumber1 )
+        
 
         var newNumber2 = numbers.filter( number=>number<=0 )
         console.log( newNumber2 );
